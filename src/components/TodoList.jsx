@@ -157,6 +157,7 @@ function TodoList() {
               width: "100%",
               borderTopLeftRadius: "0",
               borderBottomLeftRadius: "0",
+              minWidth: 'unset'
             }}
             variant="contained"
             onClick={handleAddNew}

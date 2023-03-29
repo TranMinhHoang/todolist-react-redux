@@ -3,6 +3,7 @@ import { memo } from "react";
 import listPriority from "./listPriority";
 
 function Todo({ name, completed, priority }) {
+  console.log('abc')
     const _priority = listPriority.find(item => item.title === priority)
   return (
     <div className="flex justify-between items-center">
